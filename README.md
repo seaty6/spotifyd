@@ -1,4 +1,21 @@
+
 # Spotifyd <!-- omit in toc -->
+
+# Windows
+
+To run the executable, head to https://github.com/seaty6/spotifyd/releases/tag/v0.2.24
+
+I couldn't figure out how to get the configuration file to work, so all flags must be passed to the executable. The "--no-daemon" flag must be included. Run spotifyd.exe -h to see additional options.
+
+Example: `spotifyd.exe -u your_username -p your_password -d PCname --no-daemon`
+
+This executable was built by running `cargo build --release --no-default-features --features rodio_backend` .
+
+This repo was forked from JCapucho/spotifyd with [minor changes](https://github.com/Spotifyd/spotifyd/pull/602).
+
+The rest of the original readme is below. 
+
+#  
 
 [![Dependabot Status][dependabot-badge]](https://dependabot.com)
 [![Github Actions - CD][cd-badge]][github-actions]
