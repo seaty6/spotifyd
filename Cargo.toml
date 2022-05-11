@@ -41,9 +41,7 @@ tokio-io = "0.1"
 tokio-signal = "0.1"
 url = "1.7"
 directories = "2.0.2"
-librespot = { version = ">= 0.1.1, < 0.1.2", default-features = false, features = [
-    "with-tremor"
-] }
+librespot = { version = ">= 0.1.1, < 0.1.2", default-features = false}
 
 [target."cfg(unix)".dependencies]
 daemonize = "0.4"

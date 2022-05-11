@@ -1434,7 +1434,6 @@ dependencies = [
  "futures 0.1.29",
  "lewton",
  "librespot-core",
- "librespot-tremor",
  "log 0.4.8",
  "num-bigint",
  "num-traits",
@@ -1552,18 +1551,6 @@ dependencies = [
  "protobuf",
  "protobuf-codegen",
  "protobuf-codegen-pure",
-]
-
-[[package]]
-name = "librespot-tremor"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b155a7dc4e4d272e01c37a1b85c1ee1bee7f04980ad4a7784c1a6e0f2de5929b"
-dependencies = [
- "cc",
- "libc",
- "ogg-sys",
- "pkg-config",
 ]
 
 [[package]]
@@ -1924,17 +1911,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d79f1db9148be9d0e174bb3ac890f6030fcb1ed947267c5a91ee4c91b5a91e15"
 dependencies = [
  "byteorder",
-]
-
-[[package]]
-name = "ogg-sys"
-version = "0.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a95b8c172e17df1a41bf8d666301d3b2c4efeb90d9d0415e2a4dc0668b35fdb2"
-dependencies = [
- "gcc",
- "libc",
- "pkg-config",
 ]
 
 [[package]]
