@@ -5,15 +5,30 @@
 
 To run the executable, head to https://github.com/seaty6/spotifyd/releases/tag/v0.2.24
 
-I couldn't figure out how to get the configuration file to work, so all flags must be passed to the executable. The "--no-daemon" flag must be included. Run spotifyd.exe -h to see additional options.
+Be sure to pass the flags you want to the executable. The "--no-daemon" flag must be included. Run spotifyd.exe -h to see additional options.
 
 Example: `spotifyd.exe -u your_username -p your_password -d PCname --no-daemon`
+
+If you want to use a configuration file, you can use the --config-path <string> flag. 
+
+Example: `spotifyd.exe --config-path`
 
 This executable was built by running `cargo build --release --no-default-features --features rodio_backend` .
 
 This repo was forked from JCapucho/spotifyd with [minor changes](https://github.com/Spotifyd/spotifyd/pull/602).
 
-The rest of the original readme is below. 
+Although much of the repo's readme has moved to this page (https://spotifyd.github.io/spotifyd/), the rest of the readme at the time of forking is below. 
+
+
+\
+&nbsp;
+\
+&nbsp;
+\
+&nbsp;
+\
+&nbsp;
+
 
 #  
 
